@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    gap: 20px;
+    background-color: black;
+    color: white;
+   
+    
+    
+}
+.success {
+  color: rgb(3, 231, 3);
+}
+.error {
+  color: red;
+}
+.container{
+    display: flex;
+   
+}
+input{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#adduserbtn{
+    background-color: white;
+    width: 160px;
+    height: 40px;
+    border: none;
+    color: black;
+}
+.showEmployee{
+    border: 2px solid white;
+    padding: 14px;
+    width: 700px;
+    border-radius: 10px;
+}
+ 
+  .delete{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 4px;
+  }
+/*     <button class="delete" data-id="${employee.id}">Delete</button> */
+
+.employee-details {
+    margin-right: 40px;
+   
+  }
